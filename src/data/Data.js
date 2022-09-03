@@ -14,12 +14,18 @@ import {
   FaShippingFast,
   FaGithub,
   FaLine,
+  FaPython,
+  FaNodeJs,
+  FaReact,
+  FaDocker,
 } from "react-icons/fa";
 import { CgCardClubs } from "react-icons/cg";
-import { TbMailOpened } from "react-icons/tb";
+import { TbCSharp, TbMailOpened } from "react-icons/tb";
 import { GoMail } from "react-icons/go";
 import { GiChart } from "react-icons/gi";
+import { GrMysql } from "react-icons/gr"
 import { FiLayers } from "react-icons/fi";
+import { SiMongodb } from "react-icons/si"
 import { BsPhone } from "react-icons/bs";
 import { BsPhoneVibrate, BsVectorPen } from "react-icons/bs";
 import {
@@ -28,6 +34,9 @@ import {
   MdOutlineLocalShipping,
 } from "react-icons/md";
 
+
+
+// ----------------------------------------------------------------
 export const menu = [
   {
     id: 1,
@@ -87,35 +96,48 @@ export const socialIcon = [
 export const side = [
   {
     id: 1,
-    num: 40,
     text: "Backend Development(Node.js)",
     class: "skill1",
+    icon: <FaNodeJs/>
   },
   {
     id: 2,
-    num: 20,
     text: "Frontend Development(React)",
     class: "skill2",
+    icon: <FaReact/>
   },
   {
     id: 3,
-    num: 40,
     text: "Python",
     class: "skill3",
+    icon: <FaPython/>
   },
   {
     id:4,
-    num: 30,
     text: "C#",
-    class: "skill4"
+    class: "skill4",
+    icon: <TbCSharp/>
   },
   {
     id:5,
-    num: 30,
     text: "SQL",
-    class: "skill5"
+    class: "skill5",
+    icon: <GrMysql/>
   },
+  {
+    id:6,
+    text: "MongoDB",
+    class: "skill6",
+    icon: <SiMongodb/>
+  },
+  {
+    id:7,
+    text: "Docker",
+    class: "skill7",
+    icon: <FaDocker/>
+  }
 ];
+
 
 export const about = [
   {

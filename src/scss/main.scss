@@ -38,7 +38,7 @@ button {
 main {
   width: $w-2xl;
 }
-
+// social icon
 $colors: (
   facebook: #1773ea,
   line: #20e42a,
@@ -53,11 +53,15 @@ $colors: (
     margin: 5px;
   }
 }
-
+// Skill
 $backgrouds: (
   skill1: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
   skill2: linear-gradient(to right, #806dfa, #009eff, #00c1ff, #00dcf8, #6ef2e1),
   skill3: linear-gradient(to right, #8865dd, #9c63dc, #ae62d9, #bf60d6, #cf5ed2),
+  skill4: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
+  skill5: linear-gradient(to right, #806dfa, #009eff, #00c1ff, #00dcf8, #6ef2e1),
+  skill6: linear-gradient(to right, #8865dd, #9c63dc, #ae62d9, #bf60d6, #cf5ed2),
+  skill7: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
 );
 
 @each $skill, $backgroud in $backgrouds {
