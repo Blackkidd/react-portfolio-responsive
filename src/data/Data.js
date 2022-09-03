@@ -23,7 +23,7 @@ import {
 import { CgCardClubs } from "react-icons/cg";
 import { TbCSharp, TbMailOpened } from "react-icons/tb";
 import { GoMail } from "react-icons/go";
-import { GiChart, GiTreeBranch } from "react-icons/gi";
+import { GiChart } from "react-icons/gi";
 import { GrMysql } from "react-icons/gr";
 import { FiLayers } from "react-icons/fi";
 import { SiMongodb } from "react-icons/si";
@@ -97,13 +97,13 @@ export const socialIcon = [
 export const side = [
   {
     id: 1,
-    text: "Backend Development(Node.js)",
+    text: "Node.js",
     class: "skill1",
     icon: <FaNodeJs/>
   },
   {
     id: 2,
-    text: "Frontend Development(React)",
+    text: "React",
     class: "skill2",
     icon: <FaReact/>
   },
@@ -140,6 +140,8 @@ export const side = [
   {
     id:8,
     text: "Gitbranch", 
+    class: "skill8",
+    icon: <BiGitBranch/>,
   }
 ];
 

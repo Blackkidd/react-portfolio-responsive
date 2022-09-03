@@ -1,5 +1,5 @@
 import React from "react";
-import { side, socialIcon, mySkillIcon } from "../../data/Data";
+import { side, socialIcon } from "../../data/Data";
 import sideImg from "../../images/_DSC6530.jpg";
 // import { RiMoneyDollarCircleLine } from "react-icons/ri"
 // import { FiDownloadCloud } from "react-icons/fi"
