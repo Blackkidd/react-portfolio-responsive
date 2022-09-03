@@ -4,6 +4,7 @@ import {
   AiOutlineSetting,
   AiOutlineShareAlt,
 } from "react-icons/ai";
+import { BiGitBranch } from "react-icons/bi";
 import { RiUserLine } from "react-icons/ri";
 
 // icon sidebar
@@ -22,10 +23,10 @@ import {
 import { CgCardClubs } from "react-icons/cg";
 import { TbCSharp, TbMailOpened } from "react-icons/tb";
 import { GoMail } from "react-icons/go";
-import { GiChart } from "react-icons/gi";
-import { GrMysql } from "react-icons/gr"
+import { GiChart, GiTreeBranch } from "react-icons/gi";
+import { GrMysql } from "react-icons/gr";
 import { FiLayers } from "react-icons/fi";
-import { SiMongodb } from "react-icons/si"
+import { SiMongodb } from "react-icons/si";
 import { BsPhone } from "react-icons/bs";
 import { BsPhoneVibrate, BsVectorPen } from "react-icons/bs";
 import {
@@ -135,6 +136,10 @@ export const side = [
     text: "Docker",
     class: "skill7",
     icon: <FaDocker/>
+  },
+  {
+    id:8,
+    text: "Gitbranch", 
   }
 ];
 
