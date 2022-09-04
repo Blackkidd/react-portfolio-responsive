@@ -13,7 +13,6 @@ import {
   FaFacebookF,
   FaInstagram,
   FaShippingFast,
-  FaGithub,
   FaLine,
   FaPython,
   FaNodeJs,
@@ -75,21 +74,25 @@ export const socialIcon = [
   {
     id: 1,
     icon: <FaFacebookF />,
+    text: "Parinya Khemthong",
     class: "facebook",
   },
   {
     id: 2,
     icon: <FaLine />,
+    text: "parinya.earth",
     class: "line",
   },
-  {
-    id: 3,
-    icon: <FaGithub />,
-    class: "github",
-  },
+  // {
+  //   id: 3,
+  //   icon: <FaGithub />,
+  //   text: 
+  //   class: "github",
+  // },
   {
     id: 4,
     icon: <FaInstagram />,
+    text: "exrth_parinya",
     class: "instagram",
   },
 ];
@@ -144,7 +147,6 @@ export const side = [
     icon: <BiGitBranch/>,
   }
 ];
-
 
 export const about = [
   {

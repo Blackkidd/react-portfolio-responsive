@@ -19,6 +19,7 @@ header {
         @include zindex;
         
         &:hover{
+          font-size: 50px;
         }
       }
       span {
@@ -35,7 +36,7 @@ header {
     background: $lightdark;
     @include flex(center, none, none);
     button {
-      font-size: 50px;
+      font-size: 32px;
     }
   }
 }

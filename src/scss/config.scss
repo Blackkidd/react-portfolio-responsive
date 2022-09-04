@@ -1,15 +1,15 @@
 $blue: #3700fd;
 $lightblue: #112031;
-$primary: #E38B29;
+$primary: #e38b29;
 $indigo: #827397;
-$gray: #CFD2CF;
+$gray: #cfd2cf;
 $graydark: #34313f;
-$black: #2C3333;
+$black: #2c3333;
 $lightdark: #d4c8c8b2;
 $white: #fff;
 $lightgray: #e9e9e9;
 
-// padding 
+// padding
 $p-sm: 15px;
 $p-md: 20px;
 $p-lg: 30px;
@@ -52,8 +52,11 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace;
 
 * {
   padding: 0;
@@ -91,7 +94,10 @@ $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mon
 }
 
 @mixin shadow {
-  box-shadow: -3px 2px 21px 4px rgb(32 30 41);
+  // box-shadow: -3px 2px 21px 4px rgb(32 30 41);
+  box-shadow: 9.1px 11.1px 5.3px rgba(0, 0, 0, 0.116),
+    19.6px 23.8px 17.9px rgba(0, 0, 0, 0.141),
+    56px 68px 80px rgba(0, 0, 0, 0.24);
 }
 @mixin absolute {
   position: absolute;
@@ -131,12 +137,14 @@ $sizes: (
 }
 */
 
+// create icon for
 @mixin icons($width, $height, $background, $size, $line, $backgroundHover) {
   width: $width;
   height: $height;
   background: $background;
   color: white;
-  border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+  // border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+  border-radius: 20%;
   font-size: $size;
   line-height: $line;
   padding: 5px;
@@ -146,7 +154,8 @@ $sizes: (
   &:hover {
     background: $backgroundHover;
     cursor: pointer;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    // border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border-radius: 50%;
   }
 }
 

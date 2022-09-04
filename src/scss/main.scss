@@ -5,7 +5,7 @@
 @import "responsive";
 
 body {
-  // background: url("../images/bg.jpg") no-repeat fixed top center $blue;
+  background: url("../images/bg.jpg") no-repeat fixed top center $blue;
   color: set-text-color($white);
   font-family: $font-family-sans-serif;
   width: 100vw;
@@ -35,6 +35,7 @@ button {
   @include shadow;
   // height: 105vh;
   height: 100%;
+  border-radius: 10px;
 }
 main {
   width: $w-2xl;
@@ -44,16 +45,17 @@ $colors: (
   facebook: #1773ea,
   line: #20e42a,
   github: #ff0f0f71,
-  instagram: #d62977,
+  instagram: #ac2525,
 );
 
 @each $name, $color in $colors {
   .#{$name} {
     @include icons(50px, 50px, #ff43cb, 18px, 50px, $primary);
     background: $color;
-    margin: 5px;
+    margin: 10px;
   }
 }
+
 // Skill
 $backgrouds: (
   skill1: linear-gradient(to right, #ff43cb, #ff56a1, #ff7882, #ff9a74, #feb779),
@@ -71,22 +73,27 @@ $backgrouds: (
     background: $backgroud;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-  }
-  span{
-    font-size: 30px
+    justify-content: left;
+    margin: 10px 0 0;
+    border-radius: 20px;
+    align-items: center;
+
+    span {
+      font-size: 24px;
+      padding: 10px 10px 10px;
+    }
   }
 }
 
-.button {
-  @include button($indigo, map-get($sizes, 2xl), map-get($sizes, sm), map-get($sizes, sm), $primary);
-}
-.sm_button {
-  @include button($primary, map-get($sizes, sm), map-get($sizes, sm), map-get($sizes, sm), $indigo);
-  span {
-    margin: 0;
-  }
-}
+// .button {
+//   @include button($indigo, map-get($sizes, 2xl), map-get($sizes, sm), map-get($sizes, sm), $primary);
+// }
+// .sm_button {
+//   @include button($primary, map-get($sizes, sm), map-get($sizes, sm), map-get($sizes, sm), $indigo);
+//   span {
+//     margin: 0;
+//   }
+// }
 
 .container {
   @include shadow;
