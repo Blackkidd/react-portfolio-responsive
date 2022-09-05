@@ -30,8 +30,8 @@
 
         // typign effect
         &_typingeffect {
-          font-size: 32px;
-          font-weight: 800;
+          font-size: 24px;
+          font-weight: 500;
           position: relative;
           font-family:monospace;
         }
@@ -46,7 +46,7 @@
       margin-top: 10px ;
       // defualt
       @include flex(space-between, center, none);
-      // position: absolute;
+      position: relative;
       // margin-top: 30px;
       // bottom: 20px;
       // left: 50px;

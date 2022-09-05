@@ -3,9 +3,9 @@ import { Heading } from "../../common/Heading"
 import { about } from "../../data/Data"
 import { Bio } from "./Bio"
 import { Info } from "./Info"
-import { Price } from "./Price"
+// import { Price } from "./Price"
 import { Services } from "./Services"
-import { Slider } from "./Slider"
+// import { Slider } from "./Slider"
 
 export const About = () => {
   return (
@@ -20,8 +20,8 @@ export const About = () => {
                   <Bio items={items} Heading={Heading} />
                 </div>
                 <Services items={items} Heading={Heading} />
-                <Slider items={items} Heading={Heading} />
-                <Price items={items} Heading={Heading} />
+                {/* <Slider items={items} Heading={Heading} /> */}
+                {/* <Price items={items} Heading={Heading} /> */}
               </>
             )
           })}

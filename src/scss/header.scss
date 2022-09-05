@@ -17,10 +17,6 @@ header {
         font-size: 20px;
         font-weight: 500;
         @include zindex;
-        
-        &:hover{
-          font-size: 50px;
-        }
       }
       span {
         color: $indigo;
