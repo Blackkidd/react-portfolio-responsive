@@ -14,7 +14,7 @@ header {
       position: relative;
       a {
         text-transform: capitalize;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
         @include zindex;
       }
@@ -32,7 +32,7 @@ header {
     background: $lightdark;
     @include flex(center, none, none);
     button {
-      font-size: 32px;
+      font-size: 50px;
     }
   }
 }

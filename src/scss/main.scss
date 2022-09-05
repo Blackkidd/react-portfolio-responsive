@@ -33,7 +33,7 @@ button {
   width: $w-sm;
   background-color: $lightblue;
   @include shadow;
-  // height: 105vh;
+  height: 105vh;
   height: 100%;
   border-radius: 10px;
 }

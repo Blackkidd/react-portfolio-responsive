@@ -20,6 +20,7 @@ export const Header = () => {
             </li>
           ))}
         </ul>
+        {/* X icon */}
         <div className='icons'>
           <button onClick={() => setMobile(!mobile)}>{mobile ? <AiOutlineClose /> : <RiMenu3Line />}</button>
         </div>

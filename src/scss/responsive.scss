@@ -22,12 +22,11 @@
     }
     .icons {
       @include absolute;
-      z-index: 999;
+      z-index: 10000;
       top: 60px;
-      width: 50%;
+      width: 100%;
       left: 35%;
       background: none;
-      transition: ;
     }
   }
   .main-div {
